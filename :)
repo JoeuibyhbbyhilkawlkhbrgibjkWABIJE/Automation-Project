@@ -1,1 +1,356 @@
+FESTO AUTOMATION TRAINER
+Project Planning Document
+Scope • Learning Framework • Engineering Milestones • Assessment
+
+
+Project Information	Details
+Course	Industrial Automation / Robotics / Mechatronics
+Project Team	Daniel, Thomas
+Controller Platform	Raspberry Pi Pico with plc.py Ladder Logic Runtime
+Project Duration	84–125 hours
+Document Version	1.0
+
+Prepared as a structured project plan and assessment guide
+ 
+Executive Summary
+This project restores and commissions a Festo automation trainer as a functioning industrial automation cell while providing a structured learning experience in pneumatics, sensors, electrical interfaces, PLC programming, system integration, commissioning, documentation, and troubleshooting.
+The automation cell moves parts through a magazine and conveyor, identifies material using inductive inspection, makes a diverter decision, feeds acceptable parts to a stacker, performs pick-and-place operations, and ejects the completed assembly.
+The project is organized into seven engineering phases. Each phase has defined goals, learning requirements, responsibilities, deliverables, evidence, and exit criteria. Leadership is shared so that both students participate in the major technical disciplines.
+System Process Flow
+Magazine
+↓
+Conveyor
+↓
+Inductive Inspection
+↓
+Diverter Decision
+↓
+Stacker Feed
+↓
+Pick & Place Stack
+↓
+Eject Finished Assembly
+Expected Outcomes
+•	A reliable, continuously operating automation sequence.
+•	Complete engineering documentation and I/O mapping.
+•	A functioning plc.py ladder-logic control program.
+•	Demonstrated fault recovery and troubleshooting capability.
+•	A complete final demonstration and individual reflection.
+ 
+1. Project Overview
+The restoration project is built around five major machine functions: magazine feeding, conveyor transport, part rejection, stacking, and final assembly discharge.
+Subsystem	Primary Function
+Magazine	Feeds parts into the automation sequence.
+Conveyor	Transfers parts between processing stations.
+Part Rejection	Uses inspection results to divert parts when required.
+Stacker	Feeds, picks, and stacks parts into an assembly.
+Final Assembly Discharge	Ejects the completed assembly and resets the cycle.
+
+2. Learning Outcomes
+Technical Outcomes
+•	Pneumatic systems
+•	Industrial sensors
+•	Solenoid valve control
+•	Electrical interface circuits
+•	Signal conditioning
+•	Ladder logic programming
+•	PLC sequencing
+•	System commissioning
+Employability Outcomes
+•	Teamwork
+•	Technical communication
+•	Engineering documentation
+•	Troubleshooting techniques
+•	Project planning
+•	Technical leadership
+3. Team Structure
+The original Lead + Apprentice model is retained, with the team reduced to Daniel and Thomas. Each student remains responsible for a lead discipline while developing secondary skills in other areas. This ensures both students participate in all major disciplines.
+Student	Lead Responsibility	Secondary Learning Responsibility
+Daniel	Electrical Integration	PLC Programming
+Thomas	PLC Programming	Pneumatic Systems
+
+Team Working Principle
+•	Both students participate in investigation, testing, troubleshooting, integration, and commissioning.
+•	Lead responsibility identifies the primary owner of a task; it does not restrict the other student from learning or contributing.
+
+ 
+Phase 1 — System Investigation and Documentation
+Establish a complete understanding of the trainer before modifications or control-system design begin.
+Learning Required
+•	Component identification
+•	Sensor and actuator identification
+•	I/O inventory
+•	Machine sequence documentation
+•	Engineering documentation
+Team Assignments
+Student	Primary Focus
+Daniel	Electrical/component identification and I/O mapping
+Thomas	Pneumatic/component identification and sequence documentation
+
+Time Estimate
+Initial project investigation; exact phase hours are not specified in the source document.
+Deliverables
+•	Component inventory
+•	I/O inventory
+•	Initial machine sequence
+•	Supporting engineering documentation
+Assessment Evidence
+•	Completed inventory
+•	Documented machine sequence
+•	Evidence of system investigation
+Exit Criteria
+•	All sensors identified
+•	All cylinders identified
+•	All valves identified
+•	I/O inventory completed
+•	Initial machine sequence documented
+
+ 
+Phase 2 — Pneumatic System Verification
+Verify the pneumatic hardware and actuators before electrical interfaces are designed.
+Learning Required
+•	Pneumatic circuit understanding
+•	Actuator operation
+•	Manual testing
+•	Reliability verification
+Team Assignments
+Student	Primary Focus
+Daniel	Support electrical observations and test documentation
+Thomas	Lead pneumatic verification and actuator testing
+
+Time Estimate
+Phase-specific hours are not specified in the source document.
+Deliverables
+•	Pneumatic documentation
+•	Manual actuator test results
+•	Issues and observations log
+Assessment Evidence
+•	Demonstrated actuator operation
+•	Test records
+•	Documented issues and resolutions
+Engineering Milestone
+•	All pneumatic actuators must operate reliably under manual testing before electrical interfaces are designed.
+ 
+Phase 3 — Electrical Interface Design
+Design and document the interface between industrial hardware and the Raspberry Pi Pico controller.
+Learning Required
+•	Voltage compatibility
+•	Flyback protection
+•	Current limiting
+•	Solenoid driver protection
+•	Input isolation
+•	Industrial-to-Pico interfacing
+Team Assignments
+Student	Primary Focus
+Daniel	Lead electrical interface design and integration
+Thomas	Support testing and interface verification
+
+Time Estimate
+Phase-specific hours are not specified in the source document.
+Deliverables
+•	Electrical schematics
+•	Interface design documentation
+•	Protection considerations
+•	I/O mapping
+Assessment Evidence
+•	Reviewed electrical design
+•	Evidence of compatibility/protection checks
+•	Completed schematics
+Safety Considerations
+•	Voltage compatibility
+•	Flyback protection
+•	Current limiting
+•	Solenoid driver protection
+•	Input isolation
+•	Special attention to the interface between industrial hardware and the Pico controller.
+ 
+Phase 4 — PLC Architecture and Sequence Design
+Convert the machine sequence into a clear, implementable PLC workflow.
+Learning Required
+•	PLC architecture
+•	Sequence design
+•	State-based thinking
+•	I/O relationships
+Team Assignments
+Student	Primary Focus
+Daniel	Support PLC architecture and electrical I/O relationships
+Thomas	Lead sequence architecture and workflow design
+
+Time Estimate
+Phase-specific hours are not specified in the source document.
+Deliverables
+•	State diagram
+•	Numbered sequence workflow
+•	PLC design documentation
+Assessment Evidence
+•	Approved sequence
+•	State/sequence documentation
+•	Mapped inputs and outputs
+Machine Sequence
+1. Feed part
+2. Transfer part
+3. Identify material
+4. Reject if required
+5. Detect arrival
+6. Pick first part
+7. Place first part
+8. Pick second part
+9. Stack assembly
+10. Eject assembly
+11. Repeat cycle
+ 
+Phase 5 — PLC Programming
+Develop the plc.py ladder-logic control program from the approved sequence and I/O design.
+Learning Required
+•	Modular ladder routines
+•	Meaningful tag names
+•	Commented logic
+•	Version control practices
+•	Safe start-up operation
+Team Assignments
+Student	Primary Focus
+Daniel	PLC programming support and electrical integration
+Thomas	Lead PLC programming and sequence implementation
+
+Time Estimate
+Phase-specific hours are not specified in the source document.
+Deliverables
+•	plc.py source code
+•	Program documentation
+•	Test procedures
+Assessment Evidence
+•	Functional routines
+•	Reviewed tag naming/comments
+•	Safe start-up behavior
+•	Program test evidence
+Programming Standards
+•	Modular ladder routines
+•	Meaningful tag names
+•	Commented logic
+•	Version control practices
+•	Safe start-up operation
+ 
+Phase 6 — Incremental System Integration
+Integrate the machine progressively so faults can be isolated and corrected before full automatic operation.
+Learning Required
+•	Incremental commissioning
+•	Subsystem testing
+•	Fault isolation
+•	Rotating leadership
+•	Integration troubleshooting
+Team Assignments
+Student	Primary Focus
+Daniel	Electrical integration and subsystem testing
+Thomas	PLC sequence integration and pneumatic verification
+
+Time Estimate
+Phase-specific hours are not specified in the source document.
+Deliverables
+•	Integration test records
+•	Troubleshooting logbook
+•	Milestone evidence
+Assessment Evidence
+•	Successful completion of each integration stage
+•	Documented faults and corrective actions
+Stage	Milestone
+1	Magazine Only
+2	Magazine + Conveyor
+3	Conveyor + Diverter
+4	Part Detection
+5	Stacker Motion
+6	Full Automatic Cycle
+
+ 
+Phase 7 — Optimization, Safety and Final Validation
+Optimize the completed system and demonstrate that it meets the project's acceptance criteria.
+Learning Required
+•	System optimization
+•	Safety review
+•	Final validation
+•	Fault recovery
+•	Technical presentation
+Team Assignments
+Student	Primary Focus
+Daniel	Electrical validation and final system checks
+Thomas	PLC validation, fault recovery and sequence checks
+
+Time Estimate
+Phase-specific hours are not specified in the source document.
+Deliverables
+•	Validation report
+•	Completed documentation package
+•	Demonstration evidence
+•	Individual reflection
+Assessment Evidence
+•	Continuous operation
+•	Sensor reliability
+•	Correct assembly production
+•	Fault recovery
+•	Complete documentation
+•	Final presentation
+Final Acceptance Criteria
+•	Continuous operation achieved
+•	Sensor reliability verified
+•	Completed assembly produced correctly
+•	Fault recovery demonstrated
+•	Documentation complete
+•	Final presentation completed
+ 
+Assessment Framework
+The assessment weighting is retained from the source document and presented here as the formal project assessment structure.
+Major Component	Weight
+Documentation & Investigation	15%
+Pneumatic Analysis	10%
+Electrical Interface Design	20%
+PLC Design Documentation	15%
+PLC Program Development	20%
+Integration & Troubleshooting	10%
+Final Demonstration & Reflection	10%
+
+Final Deliverables
+Required Submission Package
+☐ Component inventory
+☐ Pneumatic documentation
+☐ Electrical schematics
+☐ I/O map
+☐ State diagram
+☐ plc.py source code
+☐ Test procedures
+☐ Troubleshooting logbook
+☐ Validation report
+☐ Demonstration video
+☐ Individual reflection
+ 
+Appendices
+Appendix A — Project Timeline Summary
+Overall project duration: 84–125 hours. The source document does not assign exact hours to individual phases.
+Phase	Focus	Milestone
+1	Investigation & Documentation	System understood and documented
+2	Pneumatic Verification	Actuators operate reliably
+3	Electrical Interface Design	Industrial hardware safely interfaced to Pico
+4	PLC Architecture	Sequence and state design approved
+5	PLC Programming	Control program developed
+6	Incremental Integration	Subsystems integrated progressively
+7	Optimization & Validation	Final acceptance criteria met
+
+Appendix B — Engineering Logbook Expectations
+•	Record tests and observations.
+•	Document faults and corrective actions.
+•	Capture decisions and design changes.
+•	Maintain evidence supporting assessment.
+Appendix C — Safety Expectations
+•	Verify voltage compatibility before connecting interfaces.
+•	Use appropriate protection for inductive loads and solenoid drivers.
+•	Verify input isolation and safe start-up behavior.
+•	Do not proceed to the next engineering stage until the preceding stage is verified.
+Appendix D — Assessment Evidence Tracking Sheet
+Assessment Area	Weight	Evidence / Status
+Documentation & Investigation	15%	
+Pneumatic Analysis	10%	
+Electrical Interface Design	20%	
+PLC Design Documentation	15%	
+PLC Program Development	20%	
+Integration & Troubleshooting	10%	
+Final Demonstration & Reflection	10%	
+
 
