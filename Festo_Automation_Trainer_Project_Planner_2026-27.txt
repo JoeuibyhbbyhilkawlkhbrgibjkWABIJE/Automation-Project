@@ -1,0 +1,410 @@
+FESTO AUTOMATION TRAINER — PROJECT PLANNER
+2026–2027 SCHOOL YEAR
+Students: Daniel and Thomas
+Based on: Festo Automation Trainer Project Planning Document, Version 1.0
+School calendar basis: Limestone District School Board (LDSB), 2026–2027
+
+PURPOSE
+This planner turns the submitted Festo Automation Trainer project plan into a school-year schedule for Daniel and Thomas. It preserves the seven engineering phases, responsibilities, deliverables, assessment structure, safety expectations, and 84–125 hour overall project-duration range from the source document.
+
+IMPORTANT SCHEDULING ASSUMPTION
+The source project document gives an overall duration of 84–125 hours but does not assign hours to individual phases. This planner therefore uses a TARGET of approximately 100 project hours, with a built-in contingency window. The exact weekly work time can be adjusted to the actual class timetable and teacher availability.
+
+LDSB 2026–2027 CALENDAR BASIS
+- First day of classes: Wednesday, September 2, 2026.
+- Last day of classes: Monday, June 28, 2027.
+- P.A. days/no classes for students: September 1, October 26, November 20, January 29, April 23, May 31, June 29.
+- Winter Break: December 21, 2026–January 1, 2027 inclusive.
+- Spring Break: March 12–19, 2027.
+- Statutory/Board holidays: September 7, October 12, February 15, March 26, March 29, May 24.
+- Secondary exam period: January 21–27, 2027 and June 21–25, 2027.
+- Semester 1 runs September 1, 2026–January 28, 2027; Semester 2 runs January 29–June 29, 2027.
+
+Official LDSB calendar source:
+Limestone District School Board, 2026-2027 School Year Calendar: https://www.limestone.on.ca/school-year-calendar
+
+SCHEDULING PRINCIPLES
+1. Keep the project moving in small, documented increments rather than waiting for large blocks of time.
+2. Use the source document's phase exit criteria as gates: do not advance until the previous stage is verified.
+3. Daniel remains the primary lead for electrical integration and electrical validation; Thomas remains the primary lead for PLC programming/sequence work and pneumatic verification.
+4. Both students participate in investigation, testing, troubleshooting, integration, commissioning, and documentation.
+5. Because Thomas is expected to have less consistent attendance, Thomas's lead tasks are organized so that they are documented in small, hand-off-ready pieces. Daniel is assigned defined backup procedures rather than being expected to recreate Thomas's work.
+6. Neither student should make undocumented changes to wiring, PLC code, pneumatic setup, or machine configuration.
+7. Every work session ends with a short log entry: what was done, what changed, test result, problems, and next action.
+
+TARGET TIME MODEL
+Target project total: approximately 100 hours.
+Acceptable source range: 84–125 hours.
+Suggested weekly structure during active school weeks:
+- 2.0 hours: joint machine/project work
+- 0.5 hour Daniel individual documentation/electrical follow-up
+- 0.5 hour Thomas individual PLC/pneumatic follow-up
+Total typical planned effort: 3.0 hours/week.
+This is a planning target, not a requirement to work outside the school's permitted project time.
+
+MERCY / CONTINGENCY POLICY
+The planner deliberately includes recovery capacity for ordinary illness, medical/dental appointments, school conflicts, transportation problems, and unexpected machine faults.
+- Each student may miss a reasonable number of individual work sessions without automatically being considered behind.
+- A missed session should be recorded, not hidden.
+- First response to a missed session: use the next available project block for recovery.
+- If a milestone is missed, use the designated buffer week before moving the deadline.
+- Do not compress safety-critical electrical or pneumatic work just to recover lost time.
+- If one student is absent, the present student may perform only the coverage tasks listed in this planner.
+- No student should sign off another student's individual reflection or falsely claim to have performed work they did not perform.
+- Repeated or extended absence should be discussed with the teacher so the official assessment expectations can be adjusted appropriately.
+
+MILESTONE BUFFER DESIGN
+The plan contains approximately:
+- 3–4 short recovery periods during Semester 1.
+- 3–4 short recovery periods during Semester 2.
+- Additional flexibility around exams, breaks, and the final validation period.
+These are contingency periods, not planned vacation days.
+
+TEAM RESPONSIBILITY MATRIX
+PHASE 1 — Investigation and Documentation
+Daniel lead: electrical/component identification and I/O mapping.
+Thomas lead: pneumatic/component identification and sequence documentation.
+Shared: investigation, photographs/notes, machine sequence, inventory.
+
+PHASE 2 — Pneumatic System Verification
+Daniel support: electrical observations and test documentation.
+Thomas lead: pneumatic verification and actuator testing.
+Shared: issue log and test evidence.
+
+PHASE 3 — Electrical Interface Design
+Daniel lead: electrical interface design and integration.
+Thomas support: testing and interface verification.
+Shared: I/O map and design review.
+
+PHASE 4 — PLC Architecture and Sequence Design
+Daniel support: PLC architecture and electrical I/O relationships.
+Thomas lead: sequence architecture and workflow design.
+Shared: state diagram, sequence review, mapped I/O.
+
+PHASE 5 — PLC Programming
+Daniel support: PLC programming support and electrical integration.
+Thomas lead: PLC programming and sequence implementation.
+Shared: testing, code review, documentation.
+
+PHASE 6 — Incremental System Integration
+Daniel lead: electrical integration and subsystem testing.
+Thomas lead: PLC sequence integration and pneumatic verification.
+Shared: troubleshooting, fault isolation, milestone evidence.
+
+PHASE 7 — Optimization, Safety and Final Validation
+Daniel lead: electrical validation and final system checks.
+Thomas lead: PLC validation, fault recovery and sequence checks.
+Shared: safety review, continuous-operation test, documentation, demonstration and reflections.
+
+SCHOOL-YEAR MASTER SCHEDULE
+
+SEPTEMBER 2026 — STARTUP AND PHASE 1
+Week of Sep 8:
+- Joint: review project plan, safety expectations, machine condition, documentation system.
+- Daniel: begin electrical/component inventory and I/O list.
+- Thomas: begin pneumatic/component inventory and machine sequence notes.
+- Output: project logbook established.
+
+Week of Sep 15:
+- Joint: identify sensors, cylinders, valves, actuators and machine stations.
+- Daniel: continue I/O mapping.
+- Thomas: document machine sequence.
+- Mercy window: Sep 22–25 may absorb a missed session.
+
+Week of Sep 28:
+- Complete Phase 1 inventories and sequence documentation.
+- Exit check: all sensors/cylinders/valves identified; I/O inventory complete; initial sequence documented.
+
+OCTOBER 2026 — PHASE 2
+Week of Oct 5:
+- Thomas leads manual pneumatic/actuator checks.
+- Daniel records electrical observations and test results.
+
+Week of Oct 13:
+- Continue manual actuator tests; identify unreliable movement, leaks, or sequence issues.
+- Joint: update issues/resolutions log.
+
+Week of Oct 19:
+- Complete pneumatic documentation and manual test evidence.
+- Oct 26 is an LDSB P.A. day; use it as a natural no-student-project day.
+
+Week of Oct 27:
+- PHASE 2 EXIT GATE: all pneumatic actuators must operate reliably under manual testing before electrical interfaces are designed.
+- Mercy/recovery period if Phase 2 ran late.
+
+NOVEMBER 2026 — PHASE 3
+Week of Nov 2:
+- Daniel begins interface design: voltage compatibility, flyback protection, current limiting, solenoid-driver protection, input isolation.
+- Thomas assists with interface verification.
+
+Week of Nov 9:
+- Develop/review electrical schematics and I/O map.
+- Joint safety review.
+
+Week of Nov 16:
+- Complete design review and evidence.
+- Nov 20 is an LDSB P.A. day; no student project work assumed that day.
+
+Week of Nov 23:
+- PHASE 3 EXIT GATE: electrical design reviewed; compatibility/protection checks documented; schematics and I/O mapping complete.
+- Mercy/recovery period.
+
+DECEMBER 2026 — PHASE 4
+Week of Nov 30 / Dec 1:
+- Thomas leads sequence architecture/state design.
+- Daniel supports PLC architecture and I/O relationships.
+
+Week of Dec 7:
+- Build state diagram and numbered machine workflow.
+- Review feed → transfer → identify → reject → detect → pick → place → pick → stack → eject → repeat.
+
+Week of Dec 14:
+- Approve sequence and mapped I/O.
+- Begin translating the approved sequence into PLC design notes.
+
+Dec 21–Jan 1: WINTER BREAK — no project schedule assumed.
+
+JANUARY 2027 — PHASE 5 START / SEMESTER TRANSITION
+Week of Jan 4:
+- Confirm Phase 4 documentation after break.
+- Thomas begins PLC programming structure.
+- Daniel reviews I/O relationships and supports electrical integration.
+
+Week of Jan 11:
+- Build modular ladder routines, meaningful tags and comments.
+- Start safe-start behavior and basic routine tests.
+
+Jan 21–27: SECONDARY EXAM PERIOD.
+- No major project milestone is scheduled during exam days.
+- Use only optional catch-up/documentation if permitted and practical.
+
+Jan 29: P.A. day.
+
+FEBRUARY 2027 — PHASE 5
+Week of Feb 1:
+- Continue plc.py development and routine-level testing.
+- Daniel: electrical integration checks.
+- Thomas: sequence implementation.
+
+Week of Feb 8:
+- Test individual routines and I/O relationships.
+- Maintain version control and test records.
+
+Week of Feb 16:
+- Correct faults found in routine testing.
+- Mercy/recovery period.
+
+Week of Feb 22:
+- PHASE 5 EXIT GATE: functional routines, reviewed tags/comments, safe-start behavior and program test evidence.
+
+MARCH 2027 — PHASE 6 START
+Mar 1–5:
+- Prepare incremental integration test plan.
+- Confirm safe starting state.
+
+Mar 8–11:
+- Integration Stage 1: Magazine Only.
+- Integration Stage 2: Magazine + Conveyor.
+- Document faults before proceeding.
+
+Mar 12–19: SPRING BREAK / BOARD HOLIDAY PERIOD — no project schedule assumed.
+
+Week of Mar 22:
+- Integration Stage 3: Conveyor + Diverter.
+- Integration Stage 4: Part Detection.
+
+Mar 26 and Mar 29: statutory holidays; no project work assumed.
+
+APRIL 2027 — PHASE 6 CONTINUED
+Week of Apr 5:
+- Integration Stage 5: Stacker Motion.
+- Thomas: PLC sequence/pneumatic verification.
+- Daniel: electrical integration/subsystem testing.
+
+Week of Apr 12:
+- Correct integration faults; repeat failed tests.
+- Build troubleshooting logbook evidence.
+
+Week of Apr 19:
+- Integration Stage 6: Full Automatic Cycle, if previous stages are stable.
+- Apr 23 is a P.A. day.
+
+Week of Apr 26:
+- PHASE 6 EXIT GATE: each integration stage has evidence and corrective actions are documented.
+- Mercy/recovery period.
+
+MAY 2027 — PHASE 7
+Week of May 3:
+- Optimize cycle and address reliability issues.
+- Daniel: final electrical checks.
+- Thomas: PLC/fault-recovery checks.
+
+Week of May 10:
+- Continuous-operation test.
+- Sensor reliability verification.
+- Correct assembly production verification.
+
+Week of May 17:
+- Fault-recovery tests.
+- Complete validation report and documentation package.
+
+May 24: Victoria Day — no project work assumed.
+May 31: P.A. day.
+
+JUNE 2027 — FINAL VALIDATION AND SUBMISSION
+Week of Jun 1:
+- Final documentation audit.
+- Ensure component inventory, pneumatic documentation, electrical schematics, I/O map, state diagram, plc.py, test procedures and troubleshooting logbook are complete.
+
+Week of Jun 7:
+- Demonstration rehearsal.
+- Verify continuous operation, sensor reliability, correct assembly, fault recovery and safe startup.
+
+Week of Jun 14:
+- Final demonstration evidence/video.
+- Individual reflections drafted separately by Daniel and Thomas.
+- Final corrections only; avoid introducing unnecessary new design changes.
+
+Jun 21–25: SECONDARY EXAM PERIOD.
+- No major project milestone scheduled.
+- Use only for teacher-approved contingency if needed.
+
+Jun 28: last day of classes.
+Jun 29: P.A. day.
+FINAL PROJECT TARGET: complete before the June exam period whenever possible.
+
+DANIEL'S WEEKLY SCHEDULE
+Primary emphasis:
+1. Electrical integration and interface design.
+2. Electrical observations during pneumatic testing.
+3. PLC/electrical I/O relationships.
+4. Subsystem testing and troubleshooting.
+5. Final electrical validation.
+
+Typical weekly checklist:
+[ ] Attend/participate in joint work block.
+[ ] Update I/O map or electrical documentation.
+[ ] Record electrical test results.
+[ ] Review any PLC changes that affect wiring/I/O.
+[ ] Confirm safety/protection requirements before hardware changes.
+[ ] Add one logbook entry.
+[ ] Identify next electrical task.
+
+THOMAS'S WEEKLY SCHEDULE
+Primary emphasis:
+1. Pneumatic systems and actuator verification.
+2. Sequence architecture.
+3. PLC programming and sequence implementation.
+4. PLC integration and fault recovery.
+5. Final PLC/sequence validation.
+
+Typical weekly checklist:
+[ ] Attend/participate in joint work block when available.
+[ ] Complete assigned PLC/pneumatic task.
+[ ] Update sequence/code documentation.
+[ ] Test one defined function or routine.
+[ ] Record faults and corrective actions.
+[ ] Save/version the current plc.py work safely.
+[ ] Add one logbook entry.
+[ ] Identify next PLC/pneumatic task.
+
+ATTENDANCE AND MERCY-PERIOD PROCEDURE
+If Thomas is absent:
+1. Daniel records the absence in the project log.
+2. Daniel does not rewrite Thomas's PLC architecture from scratch.
+3. Daniel may perform approved coverage tasks:
+   - collect observations and test evidence;
+   - verify documented I/O relationships;
+   - run already-approved test procedures;
+   - check that the current code version is backed up;
+   - document faults for Thomas to investigate;
+   - perform electrical integration work already assigned to Daniel.
+4. Thomas resumes by reading the latest log entry and completing the hand-off task.
+5. Any missed Thomas milestone moves first to the next mercy/recovery window rather than being silently skipped.
+
+If Daniel is absent:
+1. Thomas records the absence.
+2. Thomas may perform approved coverage tasks:
+   - preserve and label the current electrical documentation;
+   - record pneumatic/PLC observations;
+   - run already-approved PLC test procedures;
+   - update the troubleshooting log;
+   - verify that electrical design changes are not being made without Daniel's review;
+   - prepare questions/issues for Daniel.
+3. Thomas does not independently redesign electrical protection/interface circuits unless the teacher specifically authorizes it.
+4. Daniel resumes by reading the latest log and checking any test evidence.
+
+COVERAGE RULES — WHAT TO DO AND WHAT NOT TO DO
+SAFE COVERAGE:
+- Documentation.
+- Observation.
+- Repeating an already-approved test procedure.
+- Recording measurements/results.
+- Updating logs.
+- Backing up/versioning existing code.
+- Preparing a list of questions or faults.
+
+REQUIRES THE PRIMARY LEAD / TEACHER REVIEW:
+- New electrical interface design.
+- Changing protection circuitry.
+- Changing safety-critical wiring.
+- Major pneumatic configuration changes.
+- Changing PLC architecture in a way that affects the whole sequence.
+- Declaring a phase complete.
+- Final safety sign-off.
+
+EMERGENCY HAND-OFF FORMAT
+At the end of every session, leave:
+DATE:
+STUDENT PRESENT:
+PHASE:
+TASK:
+WHAT WAS CHANGED:
+TEST PERFORMED:
+RESULT:
+FAULTS/QUESTIONS:
+FILES/CODE VERSION:
+NEXT ACTION:
+PRIMARY PERSON FOR NEXT ACTION:
+
+PROJECT DELIVERABLE CHECKLIST
+[ ] Component inventory
+[ ] Pneumatic documentation
+[ ] Electrical schematics
+[ ] I/O map
+[ ] State diagram
+[ ] plc.py source code
+[ ] Test procedures
+[ ] Troubleshooting logbook
+[ ] Validation report
+[ ] Demonstration video
+[ ] Daniel individual reflection
+[ ] Thomas individual reflection
+
+ASSESSMENT WEIGHTS FROM SOURCE DOCUMENT
+- Documentation & Investigation: 15%
+- Pneumatic Analysis: 10%
+- Electrical Interface Design: 20%
+- PLC Design Documentation: 15%
+- PLC Program Development: 20%
+- Integration & Troubleshooting: 10%
+- Final Demonstration & Reflection: 10%
+
+SAFETY GATES
+- Verify voltage compatibility before connecting interfaces.
+- Use appropriate protection for inductive loads and solenoid drivers.
+- Verify input isolation and safe start-up behavior.
+- Do not proceed to the next engineering stage until the preceding stage is verified.
+- Do not use an absence/coverage period as a reason to bypass a safety check.
+
+FINAL SUCCESS CRITERIA
+The project is complete when:
+- continuous operation is achieved;
+- sensor reliability is verified;
+- a completed assembly is produced correctly;
+- fault recovery is demonstrated;
+- documentation is complete; and
+- the final presentation/demonstration is completed.
+
+SOURCE NOTES
+The original Festo document states that the project lasts 84–125 hours and that exact phase-specific hours are not specified. It also states that leadership is shared and that both students participate in the major technical disciplines. This planner therefore uses approximate weekly targets and recovery windows rather than presenting invented phase-hour requirements as official requirements.
