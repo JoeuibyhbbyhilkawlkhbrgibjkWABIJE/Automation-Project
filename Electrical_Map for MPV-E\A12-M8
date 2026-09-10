@@ -11,5 +11,10 @@ Board 2:
 
 Board 3: 
 
-3-0: Pnuematic Pump for Claw, Model: VUVB-S-M42-AZD-QX-1C1
-3-1: 
+3-0: Pnuematic Pump for Claw (Opening and Closing), Model: VUVB-S-M42-AZD-QX-1C1
+    This is connected to aN HGPC-12-A as its actualy claw model but has no data cables.
+3-1: Pnuematic Pump for Claw (Up and Down), Model: VUVB-S-B42-ZD-QX-1C1
+3-2: Pnuematic Pump for Claw (Up and Down), Model: VUVB-S-B42-ZD-QX-1C1
+3-3: Data Control going Up, Model: ADNGF-20-60-P-A
+3-4: Data Control going Down, Model: ADNGF-12-40-P-A
+3-5: Pnumatic Pump for Claw (Forward and Backward), Model: 
